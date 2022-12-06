@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		86B0CD47293F5D2500679D7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B0CD46293F5D2500679D7A /* AppDelegate.swift */; };
+		86B0CD49293F5D2500679D7A /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 86B0CD48293F5D2500679D7A /* GameScene.sks */; };
+		86B0CD4B293F5D2500679D7A /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 86B0CD4A293F5D2500679D7A /* Actions.sks */; };
+		86B0CD4D293F5D2500679D7A /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B0CD4C293F5D2500679D7A /* GameScene.swift */; };
+		86B0CD4F293F5D2500679D7A /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B0CD4E293F5D2500679D7A /* GameViewController.swift */; };
+		86B0CD52293F5D2500679D7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86B0CD50293F5D2500679D7A /* Main.storyboard */; };
+		86B0CD54293F5D2700679D7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86B0CD53293F5D2700679D7A /* Assets.xcassets */; };
+		86B0CD57293F5D2700679D7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86B0CD55293F5D2700679D7A /* LaunchScreen.storyboard */; };
+		86B0CD61293F5D2700679D7A /* OyunCalismasiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B0CD60293F5D2700679D7A /* OyunCalismasiTests.swift */; };
+		86B0CD6B293F5D2700679D7A /* OyunCalismasiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B0CD6A293F5D2700679D7A /* OyunCalismasiUITests.swift */; };
+		86B0CD6D293F5D2700679D7A /* OyunCalismasiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B0CD6C293F5D2700679D7A /* OyunCalismasiUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		86B0CD5D293F5D2700679D7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86B0CD3B293F5D2500679D7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86B0CD42293F5D2500679D7A;
+			remoteInfo = OyunCalismasi;
+		};
+		86B0CD67293F5D2700679D7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86B0CD3B293F5D2500679D7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86B0CD42293F5D2500679D7A;
+			remoteInfo = OyunCalismasi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		86B0CD43293F5D2500679D7A /* OyunCalismasi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OyunCalismasi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		86B0CD46293F5D2500679D7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		86B0CD48293F5D2500679D7A /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		86B0CD4A293F5D2500679D7A /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		86B0CD4C293F5D2500679D7A /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		86B0CD4E293F5D2500679D7A /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		86B0CD51293F5D2500679D7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		86B0CD53293F5D2700679D7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		86B0CD56293F5D2700679D7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		86B0CD5C293F5D2700679D7A /* OyunCalismasiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OyunCalismasiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		86B0CD60293F5D2700679D7A /* OyunCalismasiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OyunCalismasiTests.swift; sourceTree = "<group>"; };
+		86B0CD66293F5D2700679D7A /* OyunCalismasiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OyunCalismasiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		86B0CD6A293F5D2700679D7A /* OyunCalismasiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OyunCalismasiUITests.swift; sourceTree = "<group>"; };
+		86B0CD6C293F5D2700679D7A /* OyunCalismasiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OyunCalismasiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		86B0CD40293F5D2500679D7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86B0CD59293F5D2700679D7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86B0CD63293F5D2700679D7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		86B0CD3A293F5D2500679D7A = {
+			isa = PBXGroup;
+			children = (
+				86B0CD45293F5D2500679D7A /* OyunCalismasi */,
+				86B0CD5F293F5D2700679D7A /* OyunCalismasiTests */,
+				86B0CD69293F5D2700679D7A /* OyunCalismasiUITests */,
+				86B0CD44293F5D2500679D7A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		86B0CD44293F5D2500679D7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86B0CD43293F5D2500679D7A /* OyunCalismasi.app */,
+				86B0CD5C293F5D2700679D7A /* OyunCalismasiTests.xctest */,
+				86B0CD66293F5D2700679D7A /* OyunCalismasiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		86B0CD45293F5D2500679D7A /* OyunCalismasi */ = {
+			isa = PBXGroup;
+			children = (
+				86B0CD46293F5D2500679D7A /* AppDelegate.swift */,
+				86B0CD48293F5D2500679D7A /* GameScene.sks */,
+				86B0CD4A293F5D2500679D7A /* Actions.sks */,
+				86B0CD4C293F5D2500679D7A /* GameScene.swift */,
+				86B0CD4E293F5D2500679D7A /* GameViewController.swift */,
+				86B0CD50293F5D2500679D7A /* Main.storyboard */,
+				86B0CD53293F5D2700679D7A /* Assets.xcassets */,
+				86B0CD55293F5D2700679D7A /* LaunchScreen.storyboard */,
+			);
+			path = OyunCalismasi;
+			sourceTree = "<group>";
+		};
+		86B0CD5F293F5D2700679D7A /* OyunCalismasiTests */ = {
+			isa = PBXGroup;
+			children = (
+				86B0CD60293F5D2700679D7A /* OyunCalismasiTests.swift */,
+			);
+			path = OyunCalismasiTests;
+			sourceTree = "<group>";
+		};
+		86B0CD69293F5D2700679D7A /* OyunCalismasiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				86B0CD6A293F5D2700679D7A /* OyunCalismasiUITests.swift */,
+				86B0CD6C293F5D2700679D7A /* OyunCalismasiUITestsLaunchTests.swift */,
+			);
+			path = OyunCalismasiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		86B0CD42293F5D2500679D7A /* OyunCalismasi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86B0CD70293F5D2700679D7A /* Build configuration list for PBXNativeTarget "OyunCalismasi" */;
+			buildPhases = (
+				86B0CD3F293F5D2500679D7A /* Sources */,
+				86B0CD40293F5D2500679D7A /* Frameworks */,
+				86B0CD41293F5D2500679D7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OyunCalismasi;
+			productName = OyunCalismasi;
+			productReference = 86B0CD43293F5D2500679D7A /* OyunCalismasi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		86B0CD5B293F5D2700679D7A /* OyunCalismasiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86B0CD73293F5D2700679D7A /* Build configuration list for PBXNativeTarget "OyunCalismasiTests" */;
+			buildPhases = (
+				86B0CD58293F5D2700679D7A /* Sources */,
+				86B0CD59293F5D2700679D7A /* Frameworks */,
+				86B0CD5A293F5D2700679D7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86B0CD5E293F5D2700679D7A /* PBXTargetDependency */,
+			);
+			name = OyunCalismasiTests;
+			productName = OyunCalismasiTests;
+			productReference = 86B0CD5C293F5D2700679D7A /* OyunCalismasiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		86B0CD65293F5D2700679D7A /* OyunCalismasiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86B0CD76293F5D2700679D7A /* Build configuration list for PBXNativeTarget "OyunCalismasiUITests" */;
+			buildPhases = (
+				86B0CD62293F5D2700679D7A /* Sources */,
+				86B0CD63293F5D2700679D7A /* Frameworks */,
+				86B0CD64293F5D2700679D7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86B0CD68293F5D2700679D7A /* PBXTargetDependency */,
+			);
+			name = OyunCalismasiUITests;
+			productName = OyunCalismasiUITests;
+			productReference = 86B0CD66293F5D2700679D7A /* OyunCalismasiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		86B0CD3B293F5D2500679D7A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					86B0CD42293F5D2500679D7A = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					86B0CD5B293F5D2700679D7A = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 86B0CD42293F5D2500679D7A;
+					};
+					86B0CD65293F5D2700679D7A = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 86B0CD42293F5D2500679D7A;
+					};
+				};
+			};
+			buildConfigurationList = 86B0CD3E293F5D2500679D7A /* Build configuration list for PBXProject "OyunCalismasi" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 86B0CD3A293F5D2500679D7A;
+			productRefGroup = 86B0CD44293F5D2500679D7A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				86B0CD42293F5D2500679D7A /* OyunCalismasi */,
+				86B0CD5B293F5D2700679D7A /* OyunCalismasiTests */,
+				86B0CD65293F5D2700679D7A /* OyunCalismasiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		86B0CD41293F5D2500679D7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86B0CD52293F5D2500679D7A /* Main.storyboard in Resources */,
+				86B0CD49293F5D2500679D7A /* GameScene.sks in Resources */,
+				86B0CD54293F5D2700679D7A /* Assets.xcassets in Resources */,
+				86B0CD57293F5D2700679D7A /* LaunchScreen.storyboard in Resources */,
+				86B0CD4B293F5D2500679D7A /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86B0CD5A293F5D2700679D7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86B0CD64293F5D2700679D7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		86B0CD3F293F5D2500679D7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86B0CD4D293F5D2500679D7A /* GameScene.swift in Sources */,
+				86B0CD4F293F5D2500679D7A /* GameViewController.swift in Sources */,
+				86B0CD47293F5D2500679D7A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86B0CD58293F5D2700679D7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86B0CD61293F5D2700679D7A /* OyunCalismasiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86B0CD62293F5D2700679D7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86B0CD6D293F5D2700679D7A /* OyunCalismasiUITestsLaunchTests.swift in Sources */,
+				86B0CD6B293F5D2700679D7A /* OyunCalismasiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		86B0CD5E293F5D2700679D7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 86B0CD42293F5D2500679D7A /* OyunCalismasi */;
+			targetProxy = 86B0CD5D293F5D2700679D7A /* PBXContainerItemProxy */;
+		};
+		86B0CD68293F5D2700679D7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 86B0CD42293F5D2500679D7A /* OyunCalismasi */;
+			targetProxy = 86B0CD67293F5D2700679D7A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		86B0CD50293F5D2500679D7A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86B0CD51293F5D2500679D7A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		86B0CD55293F5D2700679D7A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86B0CD56293F5D2700679D7A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		86B0CD6E293F5D2700679D7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		86B0CD6F293F5D2700679D7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		86B0CD71293F5D2700679D7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DW4R8GHFA2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ilker.OyunCalismasi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		86B0CD72293F5D2700679D7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DW4R8GHFA2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ilker.OyunCalismasi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		86B0CD74293F5D2700679D7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DW4R8GHFA2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ilker.OyunCalismasiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OyunCalismasi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OyunCalismasi";
+			};
+			name = Debug;
+		};
+		86B0CD75293F5D2700679D7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DW4R8GHFA2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ilker.OyunCalismasiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OyunCalismasi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OyunCalismasi";
+			};
+			name = Release;
+		};
+		86B0CD77293F5D2700679D7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DW4R8GHFA2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ilker.OyunCalismasiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OyunCalismasi;
+			};
+			name = Debug;
+		};
+		86B0CD78293F5D2700679D7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DW4R8GHFA2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ilker.OyunCalismasiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OyunCalismasi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		86B0CD3E293F5D2500679D7A /* Build configuration list for PBXProject "OyunCalismasi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86B0CD6E293F5D2700679D7A /* Debug */,
+				86B0CD6F293F5D2700679D7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86B0CD70293F5D2700679D7A /* Build configuration list for PBXNativeTarget "OyunCalismasi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86B0CD71293F5D2700679D7A /* Debug */,
+				86B0CD72293F5D2700679D7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86B0CD73293F5D2700679D7A /* Build configuration list for PBXNativeTarget "OyunCalismasiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86B0CD74293F5D2700679D7A /* Debug */,
+				86B0CD75293F5D2700679D7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86B0CD76293F5D2700679D7A /* Build configuration list for PBXNativeTarget "OyunCalismasiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86B0CD77293F5D2700679D7A /* Debug */,
+				86B0CD78293F5D2700679D7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 86B0CD3B293F5D2500679D7A /* Project object */;
+}
